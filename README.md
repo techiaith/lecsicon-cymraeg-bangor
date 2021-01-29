@@ -280,4 +280,272 @@ Ni fyddai'r adnodd hwn wedi bod yn bosib heb waith diflino ein rhagflaenwyr, yn 
 
 # The Bangor Welsh Lexicon
 
-[translation in progress...]
+This is a comprehensive lexicon of Welsh forms, their corresponding lemmas (= base forms), their parts of speech and morphological features, freely released under the CC0 license in the hope that it will stimulate the development of Welsh language technologies.
+
+The source of the data is the Welsh lexicon designed for use within Cysill, the popular Welsh spelling and grammar checker created at Bangor University. In releasing this resource, we have converted the data from a complex format designed to cope with the memory limitations of 90s computers to a fuller format that is more manageable and easier to read.
+
+The file is organized with one wordform per line, along with the lemma, part of speech, and morphological features.
+
+## Examples of the data
+
+Here’s an example of the data:
+
+```
+alwad	galwad	NOUN	Gender=Fem,Masc|Mutation=SM
+alwadau	galwad	NOUN	Mutation=SM|Number=Plur
+galwad	galwad	NOUN	Gender=Fem,Masc
+galwadau	galwad	NOUN	Number=Plur
+ngalwad	galwad	NOUN	Gender=Fem,Masc|Mutation=NM
+ngalwadau	galwad	NOUN	Mutation=NM|Number=Plur
+Galway	Galway	PROPN	NameType=Geo
+alwedig	galwedig	ADJ	Degree=Pos|Mutation=SM
+galwedig	galwedig	ADJ	Degree=Pos
+ngalwedig	galwedig	ADJ	Degree=Pos|Mutation=NM
+```
+
+## Tag details
+
+As the set of part of speech tags used by Cysill are specific to that program's needs, the data has been converted to use part of speech tags and contemporary features based on that used by the Universal Dependencies international framework (http: // universaldependencies .org)1. The tags are summarized in X and the morphological features summarized in Y. The benefit of using these tags and features is that the data now uses a general, recognized set of tags and features that are independent of specific language and likely to be familiar to developers working on NLP within a multilingual environment.
+
+## List of Tags and Morphological Features used
+
+The Attributes used, sorted by tag for which each feature was used, are:
+
+```
+ADJ
+  Degree
+    Cmp
+    Equ
+    Pos
+    Sup
+  Gender
+    Fem
+    Masc
+  Mutation
+    AM
+    HM
+    NM
+    SM
+  Number
+    Plur
+  Numform
+    Word
+  Numtype
+    Ord
+  Position
+    Prenom
+
+ADP
+  -
+    -
+  AdpType
+    Prep
+  Gender
+    Fem
+    Masc
+  Mutation
+    AM
+    HM
+    NM
+    SM
+  Number
+    Plur
+    Sing
+  Person
+    1
+    2
+    3
+  Style
+    Coll
+    Form
+
+ADV
+  -
+    -
+  Mutation
+    AM
+    NM
+    SM
+
+AUX
+
+CCONJ
+
+CONJ
+  -
+    -
+  Mutation
+    AM
+    SM
+
+DET
+  -
+    -
+  Definite
+    Def
+  Mutation
+    AM
+    HM
+    NM
+    SM
+  PronType
+    Art
+
+INTJ
+  -
+    -
+
+NOUN
+  -
+    -
+  Gender
+    Fem
+    Masc
+  Mutation
+    AM
+    HM
+    NM
+    SM
+  Number
+    Coll
+    Plur
+    Sing
+
+NUM
+  Gender
+    Fem
+    Masc
+  Mutation
+    AM
+    HM
+    NM
+    SM
+  Numform
+    Word
+  Numtype
+    Card
+
+PART
+  -
+    -
+  PronType
+    Neg
+
+PRON
+  -
+    -
+  Gender
+    Fem
+    Masc
+  Mutation
+    AM
+    HM
+    NM
+    SM
+  Number
+    Plur
+    Sing
+  Person
+    1
+    2
+    3
+  Polite
+    Form
+    Inf
+  Poss
+    Yes
+  PronGender
+    Masc
+  PronType
+    Dem
+    Int
+    Prs
+    Rel
+  Style
+    Arch
+    Coll
+    Form
+
+PROPN
+  Mutation
+    AM
+    HM
+    NM
+    SM
+  NameType
+    Geo
+    Prs
+
+PUNCT
+
+SCONJ
+
+SYM
+
+VERB
+  -
+    -
+  Mood
+    Imp
+    Ind
+    Sub
+  Mutation
+    AM
+    HM
+    NM
+    SM
+  Number
+    Plur
+    Sing
+  Person
+    0
+    1
+    2
+    3
+  Relative
+    Rel
+  Style
+    Arch
+    Coll
+    Form
+  Tense
+    Fut
+    Imp
+    Past
+    Pqp
+    Pres
+
+X
+```
+Note that the data does not contan examples of PUNCT, SYM and X as these are not used for lexical items. In addition, we curently use CONJ exclusively, rather than SCONJ and CCONJ.
+
+# Notes
+## Abstract Verbs
+
+### Present and Future Forms of the Short Verb in Welsh
+A distinctive feature of the Welsh language is that it uses the same verb forms for the present and future tense (compare 'fe ganaf gân' (= 'I will sing a song') and 'safaf yma o'ch blaen heddiw' (=' I stand here before you today '). Although the tendency in practice is to distinguish these tenses by using the periphrastic construction when conveying the present ('rwy'n sefyll yma o'ch blaen heddiw'), we have included the short form present tense as future forms to ensure that that gap in the conjugation is fully filled.
+### Different forms of Bod
+Note that the verb 'bod' has several forms that share the same space in the conjugation, such as 'mae', 'oes' and 'sydd'. Where possible, we have disambiguated these forms in the Attributes field.
+
+### Register
+The Welsh language has different registers, and although these have some representation in the data, it is worth remembering that the data here is from a spellchecker and grammar checker and that more dialectal and colloquial forms are rare within the records.
+
+Adjectives: degree of comparison
+Cysill does not conjugate irregular adjectives as ‘da’ (good), ‘cystal’ (as good), ‘gwell’ (better) so those forms are not currently linked in the data.
+
+## Tag layers
+
+One peculiarity of Universal Dependencies is that some of the tags can take precedence over, and replace other relevant tags. For example, when a prefix such as 'gan' (by) acts as a conjunction, it is tagged as a conjunction when following Universal Dependencies. The same thing happens with pronouns and determiners, and with the tag for auxiliary verbs and verbs. In the data, we have kept the underlying parts of speech.
+
+## Further Work
+
+This is a valuable collection of the vocabulary of the Welsh language, which we hope will be useful to many and in many ways. However, language, and the way it is interpreted, is constantly changing, so it is our intention to add to it and to revise it. We welcome any contributions or suggestions that will improve this resource.
+
+## Acknowledging our work
+While we are releasing this data under the CC0 licence, should you use this resource, we kindly ask you to consider acknowledging our work. Doing so helps us secure future funding to create more useful Welsh language technology resources to share.
+
+## Acknowledgements
+This resource would not have been possible without the tireless work of our predecessors, including Cathair O Dochartaigh, Dafydd Roberts, Nick Ellis, Bill Hicks and Menna Morgan.
+
+### Footnotes
+It should be noted, however, that we decided not to strictly follow the method used by Dr Johannes Heinecke in applying Universal Dependencies tags to the Welsh language as used in his Welsh Language Syntax Corpus. Where possible, we kept to the tags he used (using 'SM' for 'Mutation' rather than 'Soft', for example), but decided to stick to the more conservative interpretation of 20th century scholars such  as Stephen J. Williams, Melville Richards and D. Simon Evans. This was largely due to pragmatic reasons. This is the model that Cysill's data seems to follow in terms of verb conjugation (and not those of more recent scholars such as David Thorne and Peter Wynn Thomas). In addition, while Heinecke always treats verbnouns as nouns, we believe that enabling the distinction between verb and nominal use of the infinitive at the level of the part of speech tag is important. This will allow a product that builds on the output of part of speech taggers (such as the intent parsing software within the Macsen peripheral assistant) to behave as expected.  Another deliberate difference is the use of the PART tag for the 'yn' found in 'rwyf yn canu'. This is partly to preserve AUX for auxiliary verbs, treating 'yn' as a prepositional word in the 'to' pattern in English (cf 'to jump'), but we recognize that there is justification for treating this 'yn' as AUX when following Universal Dependencies guidelines because of its function as a word that contributes information about the tense of the surrounding verb (compare 'I am moving' and 'I have moved'). We stress that we pursued this approach for pragmatic reasons concerning the anticipated use of this data in practical NLP tasks. We gratefully acknowledge Dr Johannes Heinecke's research prowess in this area in dealing with the syntax of time discussion, but judge to some extent that we use the same tools for a slightly different purpose. Our hope of laying an alternative foundation here is that it will be possible to discuss and co-operate where appropriate, while recognizing that everyone's goal is not the same.
