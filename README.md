@@ -29,19 +29,218 @@ ngalwedig	galwedig	ADJ	Degree=Pos|Mutation=NM
 
 Gan fod y set o dagiau rhannau ymadrodd a ddefnyddir gan Cysill yn benodol ar gyfer anghenion y rhaglen honno, troswyd y data i ddefnyddio tagiau rhan ymadrodd a nodweddion cyfoes yn seiliedig ar yr hyn a ddefnyddir gan fframwaith rhyngwladol Universal Dependencies (http://universaldependencies.org) [^troednodyn]. Ceir crynodeb o'r tagiau yn X a chrynodeb o'r nodweddion morffolegol yn Y. Mantais defnyddio'r tagiau a nodweddion hyn yw bod y data bellach yn defnyddio set gyffredinol, gydnabyddedig o dagiau a nodweddion sy'n annibynol o iaith benodol ac yn debyg o fod yn gyfarwydd i ddatblygwyr sy'n gweithio ar NLP o fewn amgylchedd amlieithog.
 
+## Rhestr y Tagiau a'r Nodweddion Morffolegol a ddefnyddiwyd
 
-## Rhestr tagiau
-Dyma'r tagiau a ddefnyddir yn y data:
+Dyma'r tagiau a'r nodweddion a ddefnyddir yn y data:
 
-xxx
+```
+ADJ
+  Degree
+    Cmp
+    Equ
+    Pos
+    Sup
+  Gender
+    Fem
+    Masc
+  Mutation
+    AM
+    HM
+    NM
+    SM
+  Number
+    Plur
+  Numform
+    Word
+  Numtype
+    Ord
+  Position
+    Prenom
 
-Noder y cynhwyswyd cofnodion ar gyfer X, Y a Z fel enghreifftiau yn unig - mae'r dosbarthiadau hynny o docynnau yn ddiddiwedd.
+ADP
+  -
+    -
+  AdpType
+    Prep
+  Gender
+    Fem
+    Masc
+  Mutation
+    AM
+    HM
+    NM
+    SM
+  Number
+    Plur
+    Sing
+  Person
+    1
+    2
+    3
+  Style
+    Coll
+    Form
 
-## Rhestr y Nodweddion a ddefnyddwyd, fesul tag
+ADV
+  -
+    -
+  Mutation
+    AM
+    NM
+    SM
 
-Dyma'r Nodweddion a ddefnyddwyd, fesul y tag y cafodd pob nodwedd ei defnyddio:
+AUX
 
-xxx
+CCONJ
+
+CONJ
+  -
+    -
+  Mutation
+    AM
+    SM
+
+DET
+  -
+    -
+  Definite
+    Def
+  Mutation
+    AM
+    HM
+    NM
+    SM
+  PronType
+    Art
+
+INTJ
+  -
+    -
+
+NOUN
+  -
+    -
+  Gender
+    Fem
+    Masc
+  Mutation
+    AM
+    HM
+    NM
+    SM
+  Number
+    Coll
+    Plur
+    Sing
+
+NUM
+  Gender
+    Fem
+    Masc
+  Mutation
+    AM
+    HM
+    NM
+    SM
+  Numform
+    Word
+  Numtype
+    Card
+
+PART
+  -
+    -
+  PronType
+    Neg
+
+PRON
+  -
+    -
+  Gender
+    Fem
+    Masc
+  Mutation
+    AM
+    HM
+    NM
+    SM
+  Number
+    Plur
+    Sing
+  Person
+    1
+    2
+    3
+  Polite
+    Form
+    Inf
+  Poss
+    Yes
+  PronGender
+    Masc
+  PronType
+    Dem
+    Int
+    Prs
+    Rel
+  Style
+    Arch
+    Coll
+    Form
+
+PROPN
+  Mutation
+    AM
+    HM
+    NM
+    SM
+  NameType
+    Geo
+    Prs
+
+PUNCT
+
+SCONJ
+
+SYM
+
+VERB
+  -
+    -
+  Mood
+    Imp
+    Ind
+    Sub
+  Mutation
+    AM
+    HM
+    NM
+    SM
+  Number
+    Plur
+    Sing
+  Person
+    0
+    1
+    2
+    3
+  Relative
+    Rel
+  Style
+    Arch
+    Coll
+    Form
+  Tense
+    Fut
+    Imp
+    Past
+    Pqp
+    Pres
+
+X
+```
+
+Noder na cheir enghreifftiau o SYM, PUNCT ac X yn y data gan na ddefnyddir y tagiau hynny ar gyfer geirffurfiau geiriadurol, ac mai CONJ yn unig a ddefnyddir gennym ar hyn o bryd yn hytrach na SCONJ a CCONJ. Gweler (http://universaldependencies.org) am fanylion pellach.
 
 # Nodiadau
 
