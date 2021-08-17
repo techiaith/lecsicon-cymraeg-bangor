@@ -269,6 +269,28 @@ Mae hwn yn gasgliad gwerthfawr o eirfa'r iaith, a'n gobaith yw y bydd yn ddefnyd
 # Cydnabyddiaeth a Chyfeirio
 Er ein bod yn rhyddhau'r data hwn o dan drwydded CC0, gofynwn yn garedig i chi ystyried rhoi cydnabyddiaeth i'r gwaith hwn. Mae derbyn y fath gydnabyddiaeth yn ein cynorthwyo i ddenu rhagor o gyllid i'n galluogi i ddatblygu a rhannu adnoddau technoleg iaith Cymraeg.
 
+## Cydnabyddiaeth
+
+Os defnyddiwch chi'r adnodd hwn, gofynnwn yn garedig i chi gydnabod a chyfeirio at ein gwaith. Mae cydnabyddiaeth o'r fath yn gymorth i ni sicrhau cyllid yn y dyfodol i greu rhagor o adnoddau defnyddiol i'w rhannu.
+
+```
+@misc{gareth_watkins_2021_5211667,
+  author       = {Gareth Watkins and
+                  Gruffudd Prys and
+                  Dewi Bryn Jones},
+  title        = {{techiaith/lecsicon-cymraeg-bangor: Lecsicon 
+                   Cymraeg Prifysgol Bangor // Bangor University
+                   Welsh Language Lexicon}},
+  month        = feb,
+  year         = 2021,
+  publisher    = {Zenodo},
+  version      = {21.02},
+  doi          = {10.5281/zenodo.5211667},
+  url          = {https://doi.org/10.5281/zenodo.5211667}
+}
+```
+
+
 # Diolchiadau
 Ni fyddai'r adnodd hwn wedi bod yn bosib heb waith diflino ein rhagflaenwyr, yn eu plith Cathair O Dochartaigh, Dafydd Roberts, Nick Ellis, Bill Hicks a Menna Morgan.
 
@@ -545,6 +567,24 @@ This is a valuable collection of the vocabulary of the Welsh language, which we 
 
 ## Acknowledging our work
 While we are releasing this data under the CC0 licence, should you use this resource, we kindly ask you to consider acknowledging our work. Doing so helps us secure future funding to create more useful Welsh language technology resources to share.
+
+```
+@misc{gareth_watkins_2021_5211667,
+  author       = {Gareth Watkins and
+                  Gruffudd Prys and
+                  Dewi Bryn Jones},
+  title        = {{techiaith/lecsicon-cymraeg-bangor: Lecsicon 
+                   Cymraeg Prifysgol Bangor // Bangor University
+                   Welsh Language Lexicon}},
+  month        = feb,
+  year         = 2021,
+  publisher    = {Zenodo},
+  version      = {21.02},
+  doi          = {10.5281/zenodo.5211667},
+  url          = {https://doi.org/10.5281/zenodo.5211667}
+}
+```
+
 
 ## Acknowledgements
 This resource would not have been possible without the tireless work of our predecessors, including Cathair O Dochartaigh, Dafydd Roberts, Nick Ellis, Bill Hicks and Menna Morgan.
