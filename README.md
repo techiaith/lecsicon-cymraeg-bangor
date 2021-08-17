@@ -1,5 +1,7 @@
 # Lecsicon Cymraeg Bangor
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5211667.svg)](https://doi.org/10.5281/zenodo.5211667)
+
 [English text below](#the-bangor-welsh-lexicon)
 
 Dyma ryddhau lecsicon cynhwysfawr o eirffurfiau Cymraeg, eu lemâu (=ffurfiau cysefin) cyfatebol, eu rhannau ymadrodd a'u nodweddion morffolegol yn rhydd o dan drwydded CC0 yn y gobaith y bydd yn sbarduno datblygiad technolegau iaith Cymraeg.
