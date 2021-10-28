@@ -4,9 +4,10 @@
 
 [English text below](#the-bangor-welsh-lexicon)
 
-Dyma ryddhau lecsicon cynhwysfawr o eirffurfiau Cymraeg, eu lemâu (=ffurfiau cysefin) cyfatebol, eu rhannau ymadrodd a'u nodweddion morffolegol yn rhydd o dan drwydded CC0 yn y gobaith y bydd yn sbarduno datblygiad technolegau iaith Cymraeg.
+Dyma ryddhau lecsicon cynhwysfawr o eirffurfiau Cymraeg, eu lemâu (=ffurfiau cysefin) cyfatebol, eu rhannau ymadrodd a'u nodweddion morffolegol yn rhydd o dan drwydded CC0 yn y gobaith y bydd yn sbarduno datblygiad technolegau iaith Cymraeg. Cafodd y Lecsicon ei diweddaru gyda thros 1500 o ffurfiau newydd (gan gynnwys ‘nanowyddoniaeth’, ‘bragmataidd’ a ‘chamgarcharu’) yn Hydref 2021, yn bennaf er mwyn ymgorffori geiriau o dermau safonol Cymraeg. 
 
-Ffynhonnell y data yw'r lecsicon Cymraeg a luniwyd i'w ddefnyddio o fewn Cysill, y gwirydd sillafu a gramadeg Cymraeg poblogaidd a grewyd ym Mhrifysgol Bangor. Wrth ei rhyddhau, rydym wedi trosi'r data o fformat cymhleth a chynnil a luniwyd i ymdopi â chyfyngiadau cof cyfrifiaduron y 90au i fformat llawnach sy'n fwy hylaw ac yn haws ei darllen.
+Ffynhonnell wreiddiol y data yw'r lecsicon Cymraeg a luniwyd i'w ddefnyddio o fewn Cysill, y gwirydd sillafu a gramadeg Cymraeg poblogaidd a grewyd ym Mhrifysgol Bangor. Wrth ei ryddhau, rydym wedi trosi'r data o fformat cymhleth a chynnil a luniwyd i ymdopi â chyfyngiadau cof cyfrifiaduron y 90au i fformat llawnach sy'n fwy hylaw ac yn haws ei darllen. Ar ben hynny, rydym wedi ychwanegu nifer o eirffurfiau sydd wedi ymddangos yn fwy diweddar yn yr iaith, gan ddefnyddio ein corpora iaith fel ffynhonnell (am ragor o wybodaeth, gweler *Model Word2vec Cymraeg: cynrychioliad fector o gydberthynas semantig geiriau Cymraeg ar sail eu mewnblaniadau o fewn corpws enfawr Cymraeg* (Prys a Watkins, 2021:86-106)).
+
 
 Mae'r ffeil wedi'i threfnu gydag un geirffurf i bob llinell, ynghyd â'r lemma, y rhan ymadrodd, a'r nodweddion morffolegol.
 
@@ -29,7 +30,7 @@ ngalwedig	galwedig	ADJ	Degree=Pos|Mutation=NM
 
 # Manylion y tagiau 
 
-Gan fod y set o dagiau rhannau ymadrodd a ddefnyddir gan Cysill yn benodol ar gyfer anghenion y rhaglen honno, troswyd y data i ddefnyddio tagiau rhan ymadrodd a nodweddion cyfoes yn seiliedig ar yr hyn a ddefnyddir gan fframwaith rhyngwladol Universal Dependencies (http://universaldependencies.org) [^troednodyn]. Ceir crynodeb o'r tagiau yn X a chrynodeb o'r nodweddion morffolegol yn Y. Mantais defnyddio'r tagiau a nodweddion hyn yw bod y data bellach yn defnyddio set gyffredinol, gydnabyddedig o dagiau a nodweddion sy'n annibynol o iaith benodol ac yn debyg o fod yn gyfarwydd i ddatblygwyr sy'n gweithio ar NLP o fewn amgylchedd amlieithog.
+Gan fod y set o dagiau rhannau ymadrodd a ddefnyddir gan Cysill yn benodol ar gyfer anghenion y rhaglen honno, troswyd y data i ddefnyddio tagiau rhan ymadrodd a nodweddion cyfoes yn seiliedig ar yr hyn a ddefnyddir gan fframwaith rhyngwladol Universal Dependencies (http://universaldependencies.org) [^troednodyn]. Ceir crynodeb o'r tagiau isod. Mantais defnyddio'r tagiau a nodweddion hyn yw bod y data bellach yn defnyddio set gyffredinol, gydnabyddedig o dagiau a nodweddion sy'n annibynol o iaith benodol ac yn debyg o fod yn gyfarwydd i ddatblygwyr sy'n gweithio ar NLP o fewn amgylchedd amlieithog.
 
 ## Rhestr y Tagiau a'r Nodweddion Morffolegol a ddefnyddiwyd
 
@@ -304,9 +305,10 @@ Ni fyddai'r adnodd hwn wedi bod yn bosib heb waith diflino ein rhagflaenwyr, yn 
 
 # The Bangor Welsh Lexicon
 
-This is a comprehensive lexicon of Welsh forms, their corresponding lemmas (= base forms), their parts of speech and morphological features, freely released under the CC0 license in the hope that it will stimulate the development of Welsh language technologies.
+This is a comprehensive lexicon of Welsh forms, their corresponding lemmas (= base forms), their parts of speech and morphological features, freely released under the CC0 license in the hope that it will stimulate the development of Welsh language technologies. The Lexicon was updated with over 1500 new forms (including ‘nanowyddoniaeth’, ‘bragmataidd’ and ‘chamgarcharu’) in October 2021, mainly to incorporate words from standard Welsh terms.
 
-The source of the data is the Welsh lexicon designed for use within Cysill, the popular Welsh spelling and grammar checker created at Bangor University. In releasing this resource, we have converted the data from a complex format designed to cope with the memory limitations of 90s computers to a fuller format that is more manageable and easier to read.
+The source of the data is the Welsh lexicon designed for use within Cysill, the popular Welsh spelling and grammar checker created at Bangor University. In releasing this resource, we have converted the data from a complex format designed to cope with the memory limitations of 90s computers to a fuller format that is more manageable and easier to read. In addition, we have added a number of wordforms that have appeared more recently in the language, using our language corpora as a source (for more information, see *Welsh Word2vec model: vector representation of the semantic correlation of Welsh words based on their embeddings within an enormous Welsh corpus* (Prys and Watkins, 2021:86-106)).
+
 
 The file is organized with one wordform per line, along with the lemma, part of speech, and morphological features.
 
@@ -329,7 +331,7 @@ ngalwedig	galwedig	ADJ	Degree=Pos|Mutation=NM
 
 ## Tag details
 
-As the set of part of speech tags used by Cysill are specific to that program's needs, the data has been converted to use part of speech tags and contemporary features based on that used by the Universal Dependencies international framework (http: // universaldependencies .org)1. The tags are summarized in X and the morphological features summarized in Y. The benefit of using these tags and features is that the data now uses a general, recognized set of tags and features that are independent of specific language and likely to be familiar to developers working on NLP within a multilingual environment.
+As the set of part of speech tags used by Cysill are specific to that program's needs, the data has been converted to use part of speech tags and contemporary features based on that used by the Universal Dependencies international framework (http: // universaldependencies .org)1. The tags are summarized below. The benefit of using these tags and features is that the data now uses a general, recognized set of tags and features that are independent of specific language and likely to be familiar to developers working on NLP within a multilingual environment.
 
 ## List of Tags and Morphological Features used
 
