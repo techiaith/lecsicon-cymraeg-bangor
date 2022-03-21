@@ -17,6 +17,7 @@ authors:
     orcid: 'https://orcid.org/0000-0003-1263-6332'
     family-names: Jones
     email: d.b.jones@bangor.ac.uk
+    affiliation: Bangor University Language Technologies Unit
   - given-names: Gruffudd
     family-names: Prys
     email: g.prys@bangor.ac.uk
