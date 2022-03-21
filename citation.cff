@@ -1,0 +1,40 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Corpws CC0 Corpus
+message: >-
+  If you use this dataset, please cite it using the
+  metadata from this file.
+type: dataset
+authors:
+  - given-names: Delyth
+    family-names: Prys
+    email: d.prys@bangor.ac.uk
+    affiliation: Bangor University Language Technologies Unit
+    orcid: 'https://orcid.org/0000-0002-4909-6926'
+  - given-names: Dewi Bryn
+    orcid: 'https://orcid.org/0000-0003-1263-6332'
+    family-names: Jones
+    email: d.b.jones@bangor.ac.uk
+  - given-names: Gruffudd
+    family-names: Prys
+    email: g.prys@bangor.ac.uk
+    affiliation: Bangor University Language Technologies Unit
+    orcid: 'https://orcid.org/0000-0002-2910-2460'
+  - given-names: Gareth Llewellyn
+    orcid: 'https://orcid.org/0000-0001-8929-0718'
+    family-names: Watkins
+    email: g.watkins@bangor.ac.uk
+    affiliation: Bangor University Language Technologies Unit
+notes: "Delyth Prys - Cyfraniad ieithyddol/Linguistic contribution, Gareth Watkins - Cyfraniad ieithyddol/Linguistic contribution, Gruffudd Prys - Cyfraniad ieithyddol a thechnegol/Linguistic and technical contribution, Dewi Bryn Jones  - Cyfraniad technegol/Technical contribution"
+url: 'https://github.com/techiaith/lecsicon-cymraeg-bangor'
+abstract: >-
+  Lecsicon cynhwysfawr o eirffurfiau'r Gymraeg yn seiliedig ar ddata gwirydd sillafu a gramadeg Cysill | A    comprehensive lexicon of Welsh-language wordforms based on data from the Cysill spelling and grammar checker
+keywords:
+  - Welsh
+  - Lexicon
+  - CC0
+license: CC0-1.0
+version: '21.10'
+date-released: '2021-10-28'
