@@ -4,7 +4,9 @@
 
 [English text below](#the-bangor-welsh-lexicon)
 
-Dyma ryddhau lecsicon cynhwysfawr o eirffurfiau Cymraeg, eu lemâu (=ffurfiau cysefin) cyfatebol, eu rhannau ymadrodd a'u nodweddion morffolegol yn rhydd o dan drwydded CC0 yn y gobaith y bydd yn sbarduno datblygiad technolegau iaith Cymraeg. Cafodd y Lecsicon ei diweddaru gyda thros 1500 o ffurfiau newydd (gan gynnwys ‘nanowyddoniaeth’, ‘bragmataidd’ a ‘chamgarcharu’) yn Hydref 2021 ac yna eto yng Ngorffennaf 2022, yn bennaf er mwyn ymgorffori geiriau o dermau safonol Cymraeg. 
+Dyma ryddhau lecsicon cynhwysfawr o eirffurfiau Cymraeg, eu lemâu (=ffurfiau cysefin) cyfatebol, eu rhannau ymadrodd a'u nodweddion morffolegol yn rhydd o dan drwydded CC0 yn y gobaith y bydd yn sbarduno datblygiad technolegau iaith Cymraeg. Cafodd y Lecsicon ei diweddaru gyda thros 1500 o ffurfiau newydd (gan gynnwys ‘nanowyddoniaeth’, ‘bragmataidd’ a ‘chamgarcharu’) yn Hydref 2021, yn bennaf er mwyn ymgorffori geiriau o dermau safonol Cymraeg.
+
+Cafodd y Lecsicon ei diweddaru eto gyda thros 500 o ffurfiau newydd (gan gynnwys ‘cosmolegol’, ‘sgrinlun’ a ‘ansensitifrwydd’) yng Ngorffennaf 2022.
 
 Ffynhonnell wreiddiol y data yw'r lecsicon Cymraeg a luniwyd i'w ddefnyddio o fewn Cysill, y gwirydd sillafu a gramadeg Cymraeg poblogaidd a grewyd ym Mhrifysgol Bangor. Wrth ei ryddhau, rydym wedi trosi'r data o fformat cymhleth a chynnil a luniwyd i ymdopi â chyfyngiadau cof cyfrifiaduron y 90au i fformat llawnach sy'n fwy hylaw ac yn haws ei darllen. Ar ben hynny, rydym wedi ychwanegu nifer o eirffurfiau sydd wedi ymddangos yn fwy diweddar yn yr iaith, gan ddefnyddio ein corpora iaith fel ffynhonnell (am ragor o wybodaeth, gweler *Model Word2vec Cymraeg: cynrychioliad fector o gydberthynas semantig geiriau Cymraeg ar sail eu mewnblaniadau o fewn corpws enfawr Cymraeg* (Prys a Watkins, 2021:86-106)).
 
@@ -305,7 +307,9 @@ Ni fyddai'r adnodd hwn wedi bod yn bosib heb waith diflino ein rhagflaenwyr, yn 
 
 # The Bangor Welsh Lexicon
 
-This is a comprehensive lexicon of Welsh forms, their corresponding lemmas (= base forms), their parts of speech and morphological features, freely released under the CC0 license in the hope that it will stimulate the development of Welsh language technologies. The Lexicon was updated with over 1500 new forms (including ‘nanowyddoniaeth’, ‘bragmataidd’ and ‘chamgarcharu’) in October 2021 and again in July 2022, mainly to incorporate words from standard Welsh terms.
+This is a comprehensive lexicon of Welsh forms, their corresponding lemmas (= base forms), their parts of speech and morphological features, freely released under the CC0 license in the hope that it will stimulate the development of Welsh language technologies. The Lexicon was updated with over 1500 new forms (including ‘nanowyddoniaeth’, ‘bragmataidd’ and ‘chamgarcharu’) in October 2021, mainly to incorporate words from standard Welsh terms.
+
+The Lexicon was updated with an additional 500 new forms (including ‘cosmolegol’, ‘sgrinlun’ and ‘ansensitifrwydd’) in July 2022.
 
 The source of the data is the Welsh lexicon designed for use within Cysill, the popular Welsh spelling and grammar checker created at Bangor University. In releasing this resource, we have converted the data from a complex format designed to cope with the memory limitations of 90s computers to a fuller format that is more manageable and easier to read. In addition, we have added a number of wordforms that have appeared more recently in the language, using our language corpora as a source (for more information, see *Welsh Word2vec model: vector representation of the semantic correlation of Welsh words based on their embeddings within an enormous Welsh corpus* (Prys and Watkins, 2021:86-106)).
 
