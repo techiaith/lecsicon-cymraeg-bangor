@@ -31,9 +31,11 @@ ngalwedig	galwedig	ADJ	Degree=Pos|Mutation=NM
 ```
 
 ## Enghreifftiau Defnydd
-Ceir enhgreifftiau defnydd yn y project cysylltiedig:
+Ceir enghreifftiau defnydd yn y project cysylltiedig:
 
 https://github.com/techiaith/lecsicon-cymraeg-bangor-enghreifftiau
+
+Mae'r rhain yn cynnwys enghreifftiau o sut i barsio'r ffeil yn effeithlon, fel yn trie.py. 
 
 
 # Manylion y tagiau 
@@ -344,6 +346,8 @@ ngalwedig	galwedig	ADJ	Degree=Pos|Mutation=NM
 Example usage can be seen in the associated project:
 
 https://github.com/techiaith/lecsicon-cymraeg-bangor-enghreifftiau
+
+These include examples of how to parse the file contents efficiently, as seen in trie.py. 
 
 
 ## Tag details
