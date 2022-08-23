@@ -30,6 +30,12 @@ galwedig	galwedig	ADJ	Degree=Pos
 ngalwedig	galwedig	ADJ	Degree=Pos|Mutation=NM
 ```
 
+## Enghreifftiau Defnydd
+Ceir enhgreifftiau defnydd yn y project cysylltiedig:
+
+https://github.com/techiaith/lecsicon-cymraeg-bangor-enghreifftiau
+
+
 # Manylion y tagiau 
 
 Gan fod y set o dagiau rhannau ymadrodd a ddefnyddir gan Cysill yn benodol ar gyfer anghenion y rhaglen honno, troswyd y data i ddefnyddio tagiau rhan ymadrodd a nodweddion cyfoes yn seiliedig ar yr hyn a ddefnyddir gan fframwaith rhyngwladol Universal Dependencies (http://universaldependencies.org) [^troednodyn]. Ceir crynodeb o'r tagiau isod. Mantais defnyddio'r tagiau a nodweddion hyn yw bod y data bellach yn defnyddio set gyffredinol, gydnabyddedig o dagiau a nodweddion sy'n annibynol o iaith benodol ac yn debyg o fod yn gyfarwydd i ddatblygwyr sy'n gweithio ar NLP o fewn amgylchedd amlieithog.
@@ -332,6 +338,13 @@ alwedig	galwedig	ADJ	Degree=Pos|Mutation=SM
 galwedig	galwedig	ADJ	Degree=Pos
 ngalwedig	galwedig	ADJ	Degree=Pos|Mutation=NM
 ```
+
+## Usage Examples
+
+Example usage can be seen in the associated project:
+
+https://github.com/techiaith/lecsicon-cymraeg-bangor-enghreifftiau
+
 
 ## Tag details
 
