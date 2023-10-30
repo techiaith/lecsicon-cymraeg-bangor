@@ -8,7 +8,7 @@ Dyma ryddhau lecsicon cynhwysfawr o eirffurfiau Cymraeg, eu lemâu (=ffurfiau cy
 
 Cafodd y Lecsicon ei diweddaru eto gyda thros 500 o ffurfiau newydd (gan gynnwys ‘cosmolegol’, ‘sgrinlun’ a ‘ansensitifrwydd’) yng Ngorffennaf 2022.
 
-Cafodd y Lecsicon ei diweddaru eto gyda thros 300 o ffurfiau newydd (gan gynnwys ‘actiwari’, ‘biodreulio’ a ‘seiberfwlio’) ym mis Hydref 2023.
+Cafodd y Lecsicon ei diweddaru eto gyda thros 300 o ffurfiau newydd ym mis Hydref 2023. Mae'r diweddariad yn cynnwys ffurfiau cysefin (gan gynnwys ‘actiwari’, ‘biodreulio’ a ‘seiberfwlio’), eu treigliadau a'u lluosogion, yn ogystal â 98 enw lle rhyngwladol (megis 'Irac').
 
 Ffynhonnell wreiddiol y data yw'r lecsicon Cymraeg a luniwyd i'w ddefnyddio o fewn Cysill, y gwirydd sillafu a gramadeg Cymraeg poblogaidd a grewyd ym Mhrifysgol Bangor. Wrth ei ryddhau, rydym wedi trosi'r data o fformat cymhleth a chynnil a luniwyd i ymdopi â chyfyngiadau cof cyfrifiaduron y 90au i fformat llawnach sy'n fwy hylaw ac yn haws ei darllen. Ar ben hynny, rydym wedi ychwanegu nifer o eirffurfiau sydd wedi ymddangos yn fwy diweddar yn yr iaith, gan ddefnyddio ein corpora iaith fel ffynhonnell (am ragor o wybodaeth, gweler *Model Word2vec Cymraeg: cynrychioliad fector o gydberthynas semantig geiriau Cymraeg ar sail eu mewnblaniadau o fewn corpws enfawr Cymraeg* (Prys a Watkins, 2021:86-106)).
 
@@ -321,9 +321,7 @@ This is a comprehensive lexicon of Welsh forms, their corresponding lemmas (= ba
 
 The Lexicon was updated with an additional 500 new forms (including ‘cosmolegol’, ‘sgrinlun’ and ‘ansensitifrwydd’) in July 2022.
 
-The Lexicon was updated with over 300 new forms (including ‘actiwari’, ‘biodreulio’ and ‘seiberfwlio’) in October 2023.
-
-Cafodd y Lecsicon ei diweddaru eto gyda thros 300 o ffurfiau newydd (gan gynnwys ‘actiwari’, ‘biodreulio’ a ‘seiberfwlio’) ym mis Hydref 2023.
+The Lexicon was updated with over 300 new forms in October 2023. The update includes headword forms (including actiwari’, ‘biodreulio’ a ‘seiberfwlio’), along with their mutated and plural forms, and also includes 98 international placenames (such as 'Irac').
 
 The source of the data is the Welsh lexicon designed for use within Cysill, the popular Welsh spelling and grammar checker created at Bangor University. In releasing this resource, we have converted the data from a complex format designed to cope with the memory limitations of 90s computers to a fuller format that is more manageable and easier to read. In addition, we have added a number of wordforms that have appeared more recently in the language, using our language corpora as a source (for more information, see *Welsh Word2vec model: vector representation of the semantic correlation of Welsh words based on their embeddings within an enormous Welsh corpus* (Prys and Watkins, 2021:86-106)).
 
