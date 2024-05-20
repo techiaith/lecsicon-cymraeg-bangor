@@ -1,0 +1,5 @@
+hadnewyddol     adnewyddol      ADJ     Degree=POS|Mutation=HM
+draw    draw    NOUN    Gender=Masculine|Mutation=SM|Number=Sing
+gofyn   gofyn   VERB    ood=Ind|Number=Sing|Person=3|Tense=Pres
+hunansylweddoli hunansylweddoli NOUN    ender=Masc|Number=Sing
+dudalengipio    tudalengipio    NOUN    Gender=Masc|Mutation=SM|Number=Sin
