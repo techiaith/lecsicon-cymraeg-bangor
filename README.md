@@ -281,13 +281,11 @@ Un hynodrwydd sydd i Universal Dependencies yw y gall rhai o'r tagiau gael blaen
 # Gwaith Pellach
 Mae hwn yn gasgliad gwerthfawr o eirfa'r iaith, a'n gobaith yw y bydd yn ddefnyddiol i sawl un ac mewn sawl ffordd. Fodd bynnag, mae iaith, a'r modd y caiff ei ddehongli, yn newid yn gyson, â'n bwriad felly fydd ychwanegu ato a'i ddiwygio. Croesawn unrhyw gyfraniadau neu awgrymiadau a fydd yn gwella'r adnodd hwn. 
 
-# Cydnabyddiaeth a Chyfeirio
-Er ein bod yn rhyddhau'r data hwn o dan drwydded CC0, gofynwn yn garedig i chi ystyried rhoi cydnabyddiaeth i'r gwaith hwn. Mae derbyn y fath gydnabyddiaeth yn ein cynorthwyo i ddenu rhagor o gyllid i'n galluogi i ddatblygu a rhannu adnoddau technoleg iaith Cymraeg.
+# Cydnabod, cymeradwyo a logos
+Er ein bod yn rhyddhau'r data hwn o dan drwydded CC0, gofynwn yn garedig i chi ystyried rhoi cydnabyddiaeth i'r gwaith hwn. Mae derbyn y fath gydnabyddiaeth yn ein cynorthwyo i ddenu rhagor o gyllid i'n galluogi i ddatblygu a rhannu adnoddau technoleg iaith Cymraeg. Nid ydym yn cynnig cymeradwyaeth.
 
-## Cydnabyddiaeth
-
-Os defnyddiwch chi'r adnodd hwn, gofynnwn yn garedig i chi gydnabod a chyfeirio at ein gwaith. Mae cydnabyddiaeth o'r fath yn gymorth i ni sicrhau cyllid yn y dyfodol i greu rhagor o adnoddau defnyddiol i'w rhannu.
-
+**Geiriad a awgrymir:** "Yn defnyddio Lecsicon Cymraeg Bangor, a ryddhawyd gan yr Uned Technolegau Iaith, Prifysgol Bangor" gyda dolen i'r storfa hon neu'r DOI.
+  
 ```
 @misc{gareth_watkins_2021_5211667,
   author       = {Gareth Watkins and
@@ -304,7 +302,37 @@ Os defnyddiwch chi'r adnodd hwn, gofynnwn yn garedig i chi gydnabod a chyfeirio 
   url          = {https://doi.org/10.5281/zenodo.5211667}
 }
 ```
-
+**Dim cymeradwyaeth.** Nid yw defnyddio'r Lecsicon, na'i gydnabod, yn golygu bod
+  Prifysgol Bangor na'r Uned Technolegau Iaith yn cymeradwyo eich cynnyrch nac yn
+  gysylltiedig ag ef. Peidiwch â disgrifio cynnyrch fel un "swyddogol", "wedi'i
+  gymeradwyo" nac "mewn partneriaeth" â'r Brifysgol neu'r Uned.
+**Enwau a logos.** Mae "Prifysgol Bangor", "Bangor University", "Uned Technolegau
+  Iaith", "Language Technologies Unit", "techiaith" a logos y Brifysgol yn nodau
+  masnach. Nid yw'r datganiad CC0 yn hepgor hawliau nod masnach (CC0 1.0, adran 4(a)).
+  Ni cheir defnyddio logos y Brifysgol heb ganiatâd ysgrifenedig tîm brand y
+  Brifysgol; ni all yr Uned roi'r caniatâd hwnnw.
+**Rhestr defnyddwyr.** Os hoffech i'ch project gael ei restru ar wefan yr Uned ymhlith
+  y projectau sy'n defnyddio ein hadnoddau, cysylltwch â ni.
+**Gwallau.** Croesawn adroddiadau am wallau yn y data drwy issues y storfa hon.
+ 
+## Gwarant a chyfyngiadau
+ 
+Darperir y Lecsicon fel y mae. Yn unol ag adran 4(b) o CC0 1.0, nid yw Prifysgol
+Bangor yn rhoi unrhyw warant ynghylch y data, gan gynnwys ei gywirdeb, ei
+gyflawnrwydd na'i addasrwydd at unrhyw ddiben penodol.
+ 
+- **Beth ydyw.** Lecsicon o eirffurfiau, lemâu, rhannau ymadrodd a nodweddion
+  morffolegol, yn deillio o ddata Cysill. Mae'n adlewyrchu'r Gymraeg ysgrifenedig
+  safonol; mae ffurfiau tafodieithol a llafar yn brin ynddo.
+- **Beth nad ydyw.** Nid geiriadur, nid safon derminolegol, ac nid ffynhonnell
+  awdurdodol ar gyfer sillafu, cenedl na ffurfiau swyddogol. Gall gynnwys gwallau a
+  bylchau. Ar gyfer termau safonol, cyfeiriwch at yr adnoddau terminoleg cydnabyddedig.
+- **Cyfrifoldeb y defnyddiwr.** Cyfrifoldeb y sawl sy'n defnyddio'r data yw gwirio
+  ei fod yn addas i'w diben, a'i brofi yn eu cynnyrch eu hunain. Nid yw'r Brifysgol
+  na'r Uned yn atebol am ganlyniadau defnyddio'r data.
+- **Gwallau.** Croesawn adroddiadau drwy issues y storfa; caiff cywiriadau eu
+  cyhoeddi mewn diweddariadau i'r data.
+ 
 
 # Diolchiadau
 Ni fyddai'r adnodd hwn wedi bod yn bosib heb waith diflino ein rhagflaenwyr, yn eu plith Cathair O Dochartaigh, Dafydd Roberts, Nick Ellis, Bill Hicks a Menna Morgan.
@@ -596,8 +624,10 @@ One peculiarity of Universal Dependencies is that some of the tags can take prec
 
 This is a valuable collection of the vocabulary of the Welsh language, which we hope will be useful to many and in many ways. However, language, and the way it is interpreted, is constantly changing, so it is our intention to add to it and to revise it. We welcome any contributions or suggestions that will improve this resource.
 
-## Acknowledging our work
-While we are releasing this data under the CC0 licence, should you use this resource, we kindly ask you to consider acknowledging our work. Doing so helps us secure future funding to create more useful Welsh language technology resources to share.
+## Credit, endorsement and logos
+While we are releasing this data under the CC0 licence, should you use this resource, we kindly ask you to consider acknowledging our work. Doing so helps us secure future funding to create more useful Welsh language technology resources to share.  We do not offer endorsement.
+
+**Suggested wording:** "Uses Lecsicon Cymraeg Bangor, released by the Language Technologies Unit, Bangor University", with a link to this repository or the DOI.
 
 ```
 @misc{gareth_watkins_2021_5211667,
@@ -616,7 +646,37 @@ While we are releasing this data under the CC0 licence, should you use this reso
 }
 ```
 
-
+**No endorsement.** Using or crediting the Lexicon does not mean that Bangor
+  University or the Language Technologies Unit endorses, approves of or is associated
+  with your product. Do not describe a product as "official", "approved" or "in
+  partnership" with the University or the Unit.
+**Names and logos.** "Bangor University", "Prifysgol Bangor", "Language Technologies
+  Unit", "Uned Technolegau Iaith", "techiaith" and the University's logos are
+  trademarks. The CC0 waiver does not waive trademark rights (CC0 1.0, section 4(a)).
+  University logos may not be used without written permission from the University's
+  brand team; the Unit cannot grant that permission.
+**Users list.** If you would like your project listed on the Unit's website among
+  projects using our resources, contact us.
+**Errors.** Reports of errors in the data are welcome via this repository's issues.
+ 
+## Warranty and limitations
+ 
+The Lexicon is provided as-is. Under section 4(b) of CC0 1.0, Bangor University
+gives no warranty of any kind concerning the data, including its accuracy,
+completeness or fitness for any particular purpose.
+ 
+**What it is.** A lexicon of wordforms, lemmas, parts of speech and morphological
+  features derived from Cysill data. It reflects standard written Welsh; dialectal
+  and colloquial forms are sparse.
+**What it is not.** Not a dictionary, not a terminology standard, and not an
+  authoritative source for spelling, gender or official forms. It may contain errors
+  and omissions. For standardised terms, consult the recognised terminology resources.
+**User responsibility.** It is the responsibility of anyone using the data to
+  check that it is suitable for their purpose and to test it in their own product.
+  Neither the University nor the Unit is liable for the consequences of its use.
+**Errors.** Reports via this repository's issues are welcome; corrections are
+  published in updates to the data.
+  
 ## Acknowledgements
 This resource would not have been possible without the tireless work of our predecessors, including Cathair O Dochartaigh, Dafydd Roberts, Nick Ellis, Bill Hicks and Menna Morgan.
 
